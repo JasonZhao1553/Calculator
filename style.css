@@ -1,0 +1,49 @@
+input[type="button"] { 
+    height: 60px;
+    width: 60px;
+    color: white; 
+    font-size: 20px;
+    font-weight: bold; 
+    border: none; 
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    background: transparent
+} 
+
+body{
+    width: 100%;
+    height: 100vh;
+    border: none;
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    border: 2px solid black; 
+    height: 60px;
+    display: flex;
+    background: white; 
+}
+
+#display{
+    font-size: 20px; 
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+input[type="text"] { 
+    padding: 20px 30px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+} 
+
+table { 
+    border: 1px solid black; 
+    background-color: black;
+} 
